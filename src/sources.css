@@ -15,6 +15,8 @@ body
 a
 {
 	font-size: 25px;
+	outline: none !important;
+	border: 0;
 }
 
 a:link
