@@ -11,6 +11,12 @@ body
 	text-align: center;
 }
 
+h1
+{
+	text-transform: uppercase;
+	color: #ffffcc;
+}
+
 a
 {
 	color: #0000ff;
@@ -36,12 +42,12 @@ img
 	max-width: 100%;
 	height: auto;
 	clear: both;
+	transition: 1s transform ease-in-out;
 }
 
-h1
+img:hover
 {
-	text-transform: uppercase;
-	color: #ffffcc;
+	 transform: scale(1.05);
 }
 
 #info
