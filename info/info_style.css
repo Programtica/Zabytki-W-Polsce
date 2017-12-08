@@ -1,0 +1,53 @@
+body
+{
+	background-image: url("../img/background_darkness.png");
+	font-family: 'Lato', sans-serif;
+}
+
+#container
+{
+	margin: auto;
+	max-width: 960px;
+	text-align: center;
+}
+
+a
+{
+	color: #0000ff;
+}
+
+a:hover
+{
+	color: #ff0000;
+}
+
+p
+{
+	font-size: 20px;
+	font-weight: bold;
+	color: #ffffcc;
+	float: left;
+	text-align: justify;
+}
+
+img
+{
+	margin-left: 40px;
+	max-width: 100%;
+	height: auto;
+	clear: both;
+}
+
+h1
+{
+	text-transform: uppercase;
+	color: #ffffcc;
+}
+
+#info
+{
+	font-style: italic;
+	font-size: 18px;
+	margin-top: 30px;
+	color: #ffffcc;
+}

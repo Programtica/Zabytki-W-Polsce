@@ -1,0 +1,95 @@
+body
+{
+	background-image: url("img/background_darkness.png");
+	font-family: 'Lato', sans-serif;
+}
+
+#container
+{
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 960px;
+	text-align: center;
+}
+
+h1
+{
+	margin-top: 50px;
+	font-size: 40px;
+	color: #ffffcc;
+}
+
+h3
+{
+	font-size: 20px;
+}
+
+#place
+{
+	font-size: 20px;
+	font-weight: bold;
+	font-style: italic;
+	color: #ffffcc;
+}
+
+figure.item
+{
+	vertical-align: top;
+	float: left;
+	border: none;
+}
+
+@media screen and (min-width: 500px) and (max-width: 970px) 
+{
+	figure.item
+	{
+		display: inline-block;
+		margin: auto;
+		width: 50%;
+	}
+}
+
+a
+{
+	outline: none !important;
+}
+
+a:link
+{
+	text-decoration: underline #000000;
+}
+
+img:hover
+{
+	opacity: 0.45;
+    filter: alpha(opacity=45);
+}
+
+img 
+{
+	max-width: 100%;
+	height: auto;
+	display: inline-block;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+figcaption 
+{
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffcc;
+	text-align: center;
+	text-decoration: underline #000000 !important;
+}
+
+#info
+{
+	clear: both; 
+	padding-top: 15px;
+	font-style: italic;
+	font-size: 30px;
+	margin-top: 30px;
+	color: #ffffcc;
+}
