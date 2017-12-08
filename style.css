@@ -84,10 +84,21 @@ figcaption
 	text-decoration: underline #000000 !important;
 }
 
+#sources a
+{
+	border: none;
+	outline: none;
+	text-decoration: underline;
+}
+
+#sources a:visited
+{
+	color: #0000ff;
+}
+
 #info
 {
-	clear: both; 
-	padding-top: 15px;
+	clear: both;
 	font-style: italic;
 	font-size: 30px;
 	margin-top: 30px;

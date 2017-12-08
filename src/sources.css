@@ -1,0 +1,85 @@
+body
+{
+	background-image: url("../img/background_darkness.png");
+	font-family: 'Lato', sans-serif;
+}
+
+#container
+{
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 960px;
+	text-align: center;
+}
+
+a
+{
+	font-size: 25px;
+}
+
+a:link
+{
+	color: #0000ff;
+}
+
+a:visited
+{
+	color: #0000ff;
+}
+
+h1
+{
+	margin-top: 50px;
+	font-size: 40px;
+	color: #ffffcc;
+}
+
+h2
+{
+	font-size: 25px;
+	color: #ffffcc;
+}
+
+h3
+{
+	font-size: 20px;
+}
+
+
+
+#info
+{
+	font-style: italic;
+	font-size: 30px;
+	margin-top: 30px;
+	color: #ffffcc;
+}
+
+#caption
+{
+	color: #ff0000;
+	font-weight: bold;
+	font-size: 40px;
+}
+
+.name h2
+{
+	font-size: 20px;
+}
+
+.name
+{
+	text-align: left;
+}
+
+.images
+{
+	max-width: 300px;
+	height: auto;
+	float: right;
+}
+
+#sections
+{
+	float: left;
+}
