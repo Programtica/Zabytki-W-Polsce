@@ -8,6 +8,7 @@ body
 {
 	margin-left: auto;
 	margin-right: auto;
+	min-width: 200px;
 	max-width: 960px;
 	text-align: center;
 }
@@ -19,21 +20,9 @@ a
 	border: 0;
 }
 
-a:link
+a:link, a:visited
 {
 	color: #0000ff;
-}
-
-a:visited
-{
-	color: #0000ff;
-}
-
-h1
-{
-	margin-top: 50px;
-	font-size: 40px;
-	color: #ffffcc;
 }
 
 h2
@@ -46,8 +35,6 @@ h3
 {
 	font-size: 20px;
 }
-
-
 
 #info
 {
@@ -74,11 +61,159 @@ h3
 	text-align: left;
 }
 
-.images
+.images, #no-mobile-image
 {
-	max-width: 300px;
+	max-width: 320px;
 	height: auto;
 	float: right;
+}
+
+@media screen and (min-width: 200px)
+{
+	#no-mobile-image, .images
+	{
+		display: none;
+	}
+	
+	.name h2, .name a, #back a, #info h3
+	{
+		font-size: 16px; 
+	}
+	
+	#caption
+	{
+		font-size: 25px;
+	}
+}
+
+@media screen and (min-width: 600px)
+{	
+	#no-mobile-image, .images
+	{
+		display: none;
+	}
+
+	#no-mobile-image, .images
+	{
+		display: initial;
+	}
+
+	.name h2, .name a, #back a, #info h3
+	{
+		font-size: 23px; 
+	}
+	
+	#caption
+	{
+		font-size: 30px;
+	}
+}
+
+@media screen and (min-width: 645px)
+{		
+	#no-mobile-image, .images
+	{
+		display: initial;
+	}
+	
+	.name h2, .name a, #back a, #info h3
+	{
+		font-size: 23px; 
+	}
+}
+
+@media screen and (min-width: 830px)
+{
+	#no-mobile-image, .images
+	{
+		display: initial;
+		margin-right: -170px;
+	}
+	
+	.name h2, .name a, #back a, #info h3
+	{
+		font-size: 20px; 
+	}
+}
+
+@media screen and (min-width: 860px)
+{
+	#no-mobile-image, .images
+	{
+		margin-right: -210px;
+	}
+	
+	.name h2, .name a
+	{
+		font-size: 19.5px; 
+	}
+	
+	 #back a, #info h3
+	{
+		font-size: 22px; 
+	}
+}
+
+@media screen and (min-width: 900px)
+{
+	#no-mobile-image, .images
+	{
+		margin-right: -240px;
+	}
+	
+	#caption
+	{
+		font-size: 35px;
+	}
+}
+
+@media screen and (min-width: 960px)
+{	
+	#no-mobile-image, .images
+	{
+		margin-right: -250px;
+	}
+	
+	.name h2, .name a
+	{
+		font-size: 20px; 
+	}
+	
+	#back a, #info h3
+	{
+		font-size: 24px; 
+	}
+}
+
+@media screen and (min-width: 1050px)
+{
+	#no-mobile-image, .images
+	{
+		margin-right: -290px;
+	}
+	
+	.name h2, .name a, #back a, #info h3
+	{
+		font-size: 26px; 
+	}
+}
+
+@media screen and (min-width: 1200px)
+{	
+	#no-mobile-image, .images
+	{
+		margin-right: -270px;
+	}
+
+	.name h2, .name a, #back a, #info h3
+	{
+		font-size: 28px; 
+	}
+	
+	#caption
+	{
+		font-size: 40px;
+	}
 }
 
 #sections

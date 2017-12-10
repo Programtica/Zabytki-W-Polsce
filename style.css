@@ -104,3 +104,72 @@ figcaption
 	margin-top: 30px;
 	color: #ffffcc;
 }
+
+@media screen and (min-width: 200px)
+{	
+	#back a, #info h3
+	{
+		font-size: 16px; 
+	}
+}
+
+@media screen and (min-width: 600px)
+{	
+	#sources a, #info h3
+	{
+		font-size: 23px; 
+	}
+}
+
+@media screen and (min-width: 645px)
+{		
+	#sources a, #info h3
+	{
+		font-size: 23px; 
+	}
+}
+
+@media screen and (min-width: 830px)
+{
+	#sources a, #info h3
+	{
+		font-size: 20px; 
+	}
+}
+
+@media screen and (min-width: 860px)
+{
+	#sources a, #info h3
+	{
+		font-size: 22px; 
+	}
+}
+
+@media screen and (min-width: 960px)
+{	
+	#sources a, #info h3
+	{
+		font-size: 24px; 
+	}
+}
+
+@media screen and (min-width: 1050px)
+{
+	#sources a, #info h3
+	{
+		font-size: 26px; 
+	}
+}
+
+@media screen and (min-width: 1200px)
+{	
+	#sources a
+	{
+		font-size: 22px; 
+	}
+	
+	#info h3
+	{
+		font-size: 28px; 
+	}
+}
