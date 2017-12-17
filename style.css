@@ -1,7 +1,7 @@
 body
 {
-	background-image: url("img/background_darkness.png"); /*from subblepatterns.com*/
-	font-family: 'Lato', sans-serif;
+	background-color: #2a0d11;
+	font-family: 'Muli', sans-serif;
 }
 
 #container
@@ -24,14 +24,6 @@ h3
 	font-size: 20px;
 }
 
-#place
-{
-	font-size: 20px;
-	font-weight: bold;
-	font-style: italic;
-	color: #ffffcc;
-}
-
 figure.item
 {
 	vertical-align: top;
@@ -51,7 +43,7 @@ figure.item
 
 a
 {
-	outline: none !important;
+	outline: none;
 }
 
 a:link
@@ -81,7 +73,7 @@ figcaption
     font-weight: bold;
     color: #ffffcc;
 	text-align: center;
-	text-decoration: underline #000000 !important;
+	text-decoration: underline #2a0d11;
 }
 
 #sources a
@@ -89,11 +81,12 @@ figcaption
 	border: none;
 	outline: none;
 	text-decoration: underline;
+	color: #87ceeb;
 }
 
-#sources a:visited
+#sources a:hover
 {
-	color: #0000ff;
+	color: #ff7400;
 }
 
 #info
