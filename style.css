@@ -138,8 +138,28 @@ figcaption
 	}
 }
 
-@media screen and (min-width: 960px)
+@media screen and (min-width: 955px)
 {	
+	img
+	{
+		width: 380px;
+		height: 280px;
+	}
+
+	#sources a, #info h3
+	{
+		font-size: 23px; 
+	}
+}
+
+@media screen and (min-width: 975px)
+{	
+	img
+	{
+		width: default;
+		height: default;
+	}
+
 	#sources a, #info h3
 	{
 		font-size: 24px; 
@@ -147,7 +167,7 @@ figcaption
 }
 
 @media screen and (min-width: 1050px)
-{
+{	
 	#sources a, #info h3
 	{
 		font-size: 26px; 
