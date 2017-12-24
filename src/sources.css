@@ -127,14 +127,21 @@ h3
 	}
 }
 
-@media screen and (min-width: 830px)
-{
+@media screen and (min-width: 800px)
+{		
 	#no-mobile-image, .images
 	{
-		display: initial;
-		margin-right: -170px;
+		display: none;
 	}
 	
+	.name h2, .name a, #back a, #info h3
+	{
+		font-size: 22px; 
+	}
+}
+
+@media screen and (min-width: 840px)
+{	
 	.name h2, .name a, #back a, #info h3
 	{
 		font-size: 20px; 
@@ -145,7 +152,8 @@ h3
 {
 	#no-mobile-image, .images
 	{
-		margin-right: -210px;
+		display: initial;
+		margin-right: -30px;
 	}
 	
 	.name h2, .name a
@@ -163,12 +171,17 @@ h3
 {
 	#no-mobile-image, .images
 	{
-		margin-right: -240px;
+		margin-right: -70px;
 	}
 	
 	#caption
 	{
 		font-size: 35px;
+	}
+	
+	#back a, #info h3
+	{
+		font-size: 22px; 
 	}
 }
 
@@ -176,7 +189,7 @@ h3
 {	
 	#no-mobile-image, .images
 	{
-		margin-right: -250px;
+		margin-right: -90px;
 	}
 	
 	.name h2, .name a
@@ -186,7 +199,7 @@ h3
 	
 	#back a, #info h3
 	{
-		font-size: 24px; 
+		font-size: 23px; 
 	}
 }
 
@@ -194,12 +207,12 @@ h3
 {
 	#no-mobile-image, .images
 	{
-		margin-right: -290px;
+		margin-right: -60px;
 	}
 	
 	.name h2, .name a, #back a, #info h3
 	{
-		font-size: 26px; 
+		font-size: 23px; 
 	}
 }
 
@@ -207,12 +220,12 @@ h3
 {	
 	#no-mobile-image, .images
 	{
-		margin-right: -270px;
+		margin-right: -120px;
 	}
 
 	.name h2, .name a, #back a, #info h3
 	{
-		font-size: 28px; 
+		font-size: 24px; 
 	}
 	
 	#caption

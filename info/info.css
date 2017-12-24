@@ -70,3 +70,50 @@ p, ul
 {
      padding: 0;
 }
+
+@media screen and (min-width: 460px)
+{	
+	#image
+	{
+		margin-top: -10px;
+		margin-bottom: 10px;
+		margin-left: 20px;
+		margin-right: 30px;
+	}
+}
+
+@media screen and (min-width: 490px)
+{	
+	#image
+	{
+		display: none;
+	}
+
+	#info-castle
+	{
+		font-size: 21px; 
+	}
+}
+
+@media screen and (min-width: 700px)
+{	
+	#image
+	{
+		display: initial;
+		margin-right: 20px;
+	}
+}
+
+@media screen and (min-width: 1050px)
+{
+	#image
+	{
+		margin-top: 10px;
+		margin-right: -5px;
+	}
+	
+	#info-castle
+	{
+		font-size: 23px; 
+	}
+}
