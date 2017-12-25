@@ -76,11 +76,16 @@ figcaption
 	text-decoration: underline #2a0d11;
 }
 
+#sources h2 a
+{
+	font-size: 36px;
+}
+
 #sources a
 {
 	border: none;
 	outline: none;
-	text-decoration: underline;
+	text-decoration: none;
 	color: #87ceeb;
 }
 
@@ -102,13 +107,18 @@ figcaption
 {	
 	#back a, #info h3
 	{
-		font-size: 16px; 
+		font-size: 20px; 
+	}
+	
+	#sources h2 a
+	{
+		font-size: 30px; 
 	}
 }
 
 @media screen and (min-width: 600px)
 {	
-	#sources a, #info h3
+	#sources h2 a, #info h3
 	{
 		font-size: 23px; 
 	}
@@ -116,7 +126,7 @@ figcaption
 
 @media screen and (min-width: 645px)
 {		
-	#sources a, #info h3
+	#sources h2 a, #info h3
 	{
 		font-size: 23px; 
 	}
@@ -124,7 +134,7 @@ figcaption
 
 @media screen and (min-width: 830px)
 {
-	#sources a, #info h3
+	#sources h2 a, #info h3
 	{
 		font-size: 20px; 
 	}
@@ -132,7 +142,7 @@ figcaption
 
 @media screen and (min-width: 860px)
 {
-	#sources a, #info h3
+	#sources h2 a, #info h3
 	{
 		font-size: 22px; 
 	}
@@ -146,7 +156,7 @@ figcaption
 		height: 285px;
 	}
 
-	#sources a, #info h3
+	#sources h2 a, #info h3
 	{
 		font-size: 23px; 
 	}
@@ -160,7 +170,7 @@ figcaption
 		height: default;
 	}
 
-	#sources a, #info h3
+	#sources h2 a, #info h3
 	{
 		font-size: 24px; 
 	}
@@ -168,7 +178,7 @@ figcaption
 
 @media screen and (min-width: 1050px)
 {	
-	#sources a, #info h3
+	#sources h2 a, #info h3
 	{
 		font-size: 26px; 
 	}
@@ -176,9 +186,9 @@ figcaption
 
 @media screen and (min-width: 1200px)
 {	
-	#sources a
+	#sources h2 a
 	{
-		font-size: 22px; 
+		font-size: 36px; 
 	}
 	
 	#info h3

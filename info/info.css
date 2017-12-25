@@ -19,6 +19,7 @@ h1
 
 a
 {
+	text-decoration: none;
 	color: #87ceeb;
 }
 
@@ -29,11 +30,11 @@ a:hover
 
 p
 {
+	text-align: justify;
 	font-size: 20px;
 	font-weight: bold;
 	color: #ffffcc;
 	float: left;
-	text-align: justify;
 }
 
 img
@@ -64,6 +65,7 @@ li
 	font-weight: bold;
 	font-size: 20px;
 	color: #ffffcc;
+	padding-bottom: 20px;
 }
 
 p, ul
