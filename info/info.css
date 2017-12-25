@@ -54,7 +54,7 @@ img:hover
 #info
 {
 	font-style: italic;
-	font-size: 18px;
+	font-size: 22px;
 	margin-top: 30px;
 	color: #ffffcc;
 }
@@ -63,14 +63,14 @@ li
 {
 	text-align: justify;
 	font-weight: bold;
-	font-size: 20px;
+	font-size: 22px;
 	color: #ffffcc;
-	padding-bottom: 20px;
+	padding-bottom: 30px;
 }
 
 p, ul
 {
-     padding: 0;
+    padding: 0;
 }
 
 @media screen and (min-width: 460px)
@@ -118,4 +118,9 @@ p, ul
 	{
 		font-size: 23px; 
 	}
+}
+
+#castle h2
+{
+	font-size: 26px;
 }

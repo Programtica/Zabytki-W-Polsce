@@ -81,14 +81,14 @@ h3
 		display: none;
 	}
 	
-	.name h2, .name a, #back a, #info h3
-	{
-		font-size: 16px; 
-	}
-	
 	#caption
 	{
 		font-size: 25px;
+	}
+	
+	.name h2, .name a, #back a, #info h3
+	{
+		font-size: 20px; 
 	}
 }
 
@@ -96,35 +96,12 @@ h3
 {	
 	#no-mobile-image, .images
 	{
-		display: none;
-	}
-
-	#no-mobile-image, .images
-	{
 		display: initial;
-	}
-
-	.name h2, .name a, #back a, #info h3
-	{
-		font-size: 23px; 
 	}
 	
 	#caption
 	{
 		font-size: 30px;
-	}
-}
-
-@media screen and (min-width: 645px)
-{		
-	#no-mobile-image, .images
-	{
-		display: initial;
-	}
-	
-	.name h2, .name a, #back a, #info h3
-	{
-		font-size: 23px; 
 	}
 }
 
@@ -134,19 +111,6 @@ h3
 	{
 		display: none;
 	}
-	
-	.name h2, .name a, #back a, #info h3
-	{
-		font-size: 22px; 
-	}
-}
-
-@media screen and (min-width: 840px)
-{	
-	.name h2, .name a, #back a, #info h3
-	{
-		font-size: 20px; 
-	}
 }
 
 @media screen and (min-width: 860px)
@@ -154,17 +118,7 @@ h3
 	#no-mobile-image, .images
 	{
 		display: initial;
-		margin-right: -30px;
-	}
-	
-	.name h2, .name a
-	{
-		font-size: 19.5px; 
-	}
-	
-	 #back a, #info h3
-	{
-		font-size: 22px; 
+		margin-right: 0px;
 	}
 }
 
@@ -172,7 +126,7 @@ h3
 {
 	#no-mobile-image, .images
 	{
-		margin-right: -70px;
+		margin-right: -30px;
 	}
 	
 	#caption
@@ -180,7 +134,7 @@ h3
 		font-size: 35px;
 	}
 	
-	#back a, #info h3
+	.name h2, .name a, #back a, #info h3
 	{
 		font-size: 22px; 
 	}
@@ -190,30 +144,7 @@ h3
 {	
 	#no-mobile-image, .images
 	{
-		margin-right: -90px;
-	}
-	
-	.name h2, .name a
-	{
-		font-size: 20px; 
-	}
-	
-	#back a, #info h3
-	{
-		font-size: 23px; 
-	}
-}
-
-@media screen and (min-width: 1050px)
-{
-	#no-mobile-image, .images
-	{
 		margin-right: -60px;
-	}
-	
-	.name h2, .name a, #back a, #info h3
-	{
-		font-size: 23px; 
 	}
 }
 
@@ -221,17 +152,17 @@ h3
 {	
 	#no-mobile-image, .images
 	{
-		margin-right: -120px;
-	}
-
-	.name h2, .name a, #back a, #info h3
-	{
-		font-size: 24px; 
+		margin-right: -100px;
 	}
 	
 	#caption
 	{
 		font-size: 40px;
+	}
+	
+	.name h2, .name a, #back a, #info h3
+	{
+		font-size: 26px; 
 	}
 }
 

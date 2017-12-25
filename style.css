@@ -105,43 +105,11 @@ figcaption
 
 @media screen and (min-width: 200px)
 {	
-	#back a, #info h3
+	#back a
 	{
 		font-size: 23px; 
 	}
 	
-	#sources h2 a
-	{
-		font-size: 30px; 
-	}
-}
-
-@media screen and (min-width: 600px)
-{	
-	#sources h2 a, #info h3
-	{
-		font-size: 26px; 
-	}
-}
-
-@media screen and (min-width: 645px)
-{		
-	#sources h2 a, #info h3
-	{
-		font-size: 26px; 
-	}
-}
-
-@media screen and (min-width: 830px)
-{
-	#sources h2 a, #info h3
-	{
-		font-size: 26px; 
-	}
-}
-
-@media screen and (min-width: 860px)
-{
 	#sources h2 a, #info h3
 	{
 		font-size: 26px; 
@@ -155,11 +123,6 @@ figcaption
 		width: 385px;
 		height: 285px;
 	}
-
-	#sources h2 a, #info h3
-	{
-		font-size: 26px; 
-	}
 }
 
 @media screen and (min-width: 975px)
@@ -168,19 +131,6 @@ figcaption
 	{
 		width: default;
 		height: default;
-	}
-
-	#sources h2 a, #info h3
-	{
-		font-size: 26px; 
-	}
-}
-
-@media screen and (min-width: 1050px)
-{	
-	#sources h2 a, #info h3
-	{
-		font-size: 28px; 
 	}
 }
 
